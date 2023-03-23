@@ -16,9 +16,7 @@ public class Student {
 
     LocalDate date = LocalDate.now();
 
-    public Student(){
-
-    }
+    public Student(){}
 
 
     void setName (String name){
