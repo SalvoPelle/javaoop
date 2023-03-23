@@ -31,4 +31,9 @@ public class Student {
         System.out.println("Constructing");
         System.out.println("Constructed");
     }
+
+    @Override
+    public String toString() {
+        return name + " " + age;
+    }
 }

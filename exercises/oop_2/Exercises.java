@@ -30,9 +30,10 @@ public class Exercises {
 
         for (int i = 0; i < studentAges.size(); i++) {
             // Write create students
-            new Student(studentNames.get(i), studentAges.get(i));
+            Student student1 = new Student(studentNames.get(i), studentAges.get(i));
+            students.add(student1);
         }
-
+        System.out.println(students);
     }
 
     /**
