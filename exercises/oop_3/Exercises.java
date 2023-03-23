@@ -34,10 +34,7 @@ public class Exercises {
         System.out.println(student.getYearOfBirth());
         System.out.println(student.getAverageEvaluation());
         System.out.println(student);
-        System.out.println("Month n: " + student.numbersOfMonths());
-        System.out.println("Month n: " + student.numbersOfMonths());
-        System.out.println("Month n: " + student.numbersOfMonths());
-        System.out.println("Month n: " + student.numbersOfMonths());
+
 
     }
 
@@ -62,6 +59,12 @@ public class Exercises {
         student1.setAge(-5);
         student1.setYearOfBirth(2018);
         student1.setAverageEvaluation(10.5);
+
+        // creazione del counter
+        System.out.println("Month n: " + student1.numbersOfMonths());
+        System.out.println("Month n: " + student1.numbersOfMonths());
+        System.out.println("Month n: " + student1.numbersOfMonths());
+        System.out.println("Month n: " + student1.numbersOfMonths());
 
         System.out.println(student1);
     }
