@@ -67,6 +67,7 @@ public class Student {
         return numberOfMonthsInSchool;
     }
     // è un esempio molto stupido ma non sapevo cosa mettere come counter e farlo funzionare in questo caso
+    //lo ho aggiunto al nome perchè, secondo il mio ragionamento, lo richiamiamo una volta al mese per vedere a che mese è arrivato nel corso. l'unica cosa che mi è venuta in mente
 
 
 
