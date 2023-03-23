@@ -66,6 +66,9 @@ public class Exercises {
         System.out.println(student1.getName());
         System.out.println(student1.getName());
 
+        System.out.println(student1.getAge());
+        System.out.println(student1.getAverageEvaluation());
+
         System.out.println(student1);
     }
 

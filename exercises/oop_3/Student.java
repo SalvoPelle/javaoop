@@ -26,24 +26,15 @@ public class Student {
         this.surname = surname;
     }
     void setAge (Integer age){
-        // primi 2 constrain
-        if (age > maximumAge || age<0){
-            System.out.println("Sorry, you can't inscribe in our school");
-        } else {
-            this.age = age;
-        }
+        this.age = age;
+
     }
 
     void setYearOfBirth (Integer yearOfBirth){
         this.yearOfBirth = yearOfBirth;
     }
     void setAverageEvaluation (Double averageEvaluation){
-        // 3 constrain
-        if (averageEvaluation > 10){
-            System.out.println("Sorry, there is an error in your average.");
-        }else {
-            this.averageEvaluation = averageEvaluation;
-        }
+        this.averageEvaluation = averageEvaluation;
 
     }
     String getName(){
@@ -54,12 +45,25 @@ public class Student {
         return this.surname;
     }
     Integer getAge(){
+        // primi 2 constrains
+        if (age > maximumAge || age<0){
+            System.out.println("Sorry, you can't inscribe in our school");
+            age = null;
+        } else {
+            age = age;
+        }
         return this.age;
     }
     Integer getYearOfBirth(){
         return this.yearOfBirth;
     }
     Double getAverageEvaluation(){
+        // 3 constrain
+        if (averageEvaluation > 10){
+            System.out.println("Sorry, there is an error in your average.");
+        }else {
+            averageEvaluation = averageEvaluation;
+        }
         return this.averageEvaluation;
     }
     Integer numbersOfMonths(){
