@@ -47,6 +47,7 @@ public class Student {
 
     }
     String getName(){
+        System.out.println("Month n: " + numbersOfMonths());
         return this.name;
     }
     String getSurname(){

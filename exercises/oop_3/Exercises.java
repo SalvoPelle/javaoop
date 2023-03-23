@@ -2,7 +2,7 @@ package exercise.javaoop.exercises.oop_3;
 
 public class Exercises {
     public static void main(String[] args) {
-        //exercise1();
+        exercise1();
         exercise2();
     }
 
@@ -61,10 +61,10 @@ public class Exercises {
         student1.setAverageEvaluation(10.5);
 
         // creazione del counter
-        System.out.println("Month n: " + student1.numbersOfMonths());
-        System.out.println("Month n: " + student1.numbersOfMonths());
-        System.out.println("Month n: " + student1.numbersOfMonths());
-        System.out.println("Month n: " + student1.numbersOfMonths());
+        System.out.println(student1.getName());
+        System.out.println(student1.getName());
+        System.out.println(student1.getName());
+        System.out.println(student1.getName());
 
         System.out.println(student1);
     }
