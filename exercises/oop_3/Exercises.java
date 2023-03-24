@@ -65,9 +65,11 @@ public class Exercises {
         System.out.println(student1.getName());
         System.out.println(student1.getName());
         System.out.println(student1.getName());
+        System.out.println("--------------------------------------------");
 
-        System.out.println(student1.getAge());
-        System.out.println(student1.getAverageEvaluation());
+        student1.getAge();// non riesco a capire perchè non mi stampa la condizione inserita nel set. se lo metto in un sout mi stampa solo il valore (null). se lo esco dal
+                            // sout non stampa niente anche se dovrebbe uscire "Sorry, you can't inscribe in our school". perchè?
+        System.out.println(student1.getAverageEvaluation());// fatto così mi esce solo il valore null.
 
         System.out.println(student1);
     }
